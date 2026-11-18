@@ -1,0 +1,146 @@
+
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6ff;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+header {
+    background: #171738;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+/* Home Section */
+.hero {
+    background: linear-gradient(135deg, #171738, #5145cd);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero span {
+    color: #00d4ff;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Buttons */
+button {
+    background: #00bcd4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #008c9e;
+}
+
+/* Common Sections */
+section {
+    padding: 40px;
+    margin: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #ccc;
+}
+
+section h2 {
+    text-align: center;
+    color: #5145cd;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #e9e8ff;
+    color: #5145cd;
+    padding: 25px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background: #5145cd;
+    color: white;
+}
+
+/* Education Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #5145cd;
+    color: white;
+}
+
+/* Contact Form */
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+/* Footer */
+footer {
+    background: #171738;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
